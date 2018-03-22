@@ -123,7 +123,7 @@ Additionally, the following settings may be applied to each field:
 
 ## Tips for writing an API
 
--   **Use [civix generate:api](/extensions/civix.md#generate-api)** if writing a custom API within an extension.
+-   **Use [civix generate:api](/extensions/civix#generate-api)** if writing a custom API within an extension.
 
 -   **Look at existing apis** in the `civicrm/api/v3` directory
     as examples.  Start with a simple API like the survey api as the

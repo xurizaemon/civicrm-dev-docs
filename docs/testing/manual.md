@@ -150,14 +150,14 @@ files, but `civibuild` can automated that. For example:
     ```bash
     $ civibuild create dist --url http://dist.localhost --patch https://github.com/civicrm/civicrm-core/pull/8177
     ```
-    
+
 1. Run distmaker
 
     ```bash
     $ cd $HOME/buildkit/build/dist/src/distmaker
     $ ./distmaker.sh all
     ```
-    
+
 1. Observe the output
 
     ```bash
@@ -167,7 +167,7 @@ files, but `civibuild` can automated that. For example:
 ### Option 1. Fully manual installation and upgrade
 
 You can, of course, follow the normal instructions for [Installation and
-Upgrades](/confluence/display/CRMDOC/Installation+and+Upgrades).
+Upgrades](https://docs.civicrm.org/sysadmin/en/latest/).
 
 If you're not big into scripting/CLI, this is the way to go. But it can
 be time-consuming.
@@ -176,7 +176,7 @@ be time-consuming.
 
 If you have a Drupal staging site with CiviCRM already installed, you can use `drush` to load a tarball.
 
-Formula: 
+Formula:
 
 ```bash
 drush cvup --tarfile=<path to tarfile> --backupdir=<path to backup dir>
@@ -187,7 +187,7 @@ drush cvup --tarfile=<path to tarfile> --backupdir=<path to backup dir>
     ```bash
     $ cd /var/www/drupal
     ```
-    
+
 1.  Clear caches
 
     ```bash
@@ -206,7 +206,7 @@ drush cvup --tarfile=<path to tarfile> --backupdir=<path to backup dir>
     ```bash
     $ drush cvup --tarfile=$HOME/buildkit/build/dist/out/tar/civicrm-4.7.7-drupal.tar.gz --backupdir=/tmp/myupgrade
     ```
-    
+
 1.  Clear caches
 
     ```bash
@@ -235,9 +235,9 @@ the installation screen.
     ```bash
     $ civibuild destroy dempty
     ```
-    
+
 See [civibuild](/tools/civibuild.md) for more options.
-    
+
 !!! note
     At time of writing, this supports Drupal 7, WordPress, and Backdrop.
 
@@ -256,13 +256,13 @@ civihydra create <civicrm-tar-files>
     ```bash
     civihydra create http://download.civicrm.org/civicrm-4.7.7-{drupal.tar.gz,wordpress.zip,backdrop-unstable.tar.gz}
     ```
-    
+
 1. OR... create D7, WordPress, and Backdrop sites using your own custom tarballs. Display login details.
 
     ```bash
     civihydra create $HOME/buildkit/build/dist/out/tar/*
     ```
-    
+
 1. Cleanup all the test sites
 
     ```bash
@@ -292,4 +292,3 @@ use the web-based graphical installer included with the tarballs (with a
 filtered version of the source tree). Consequently, the automated
 installation is not quite as representative of how a typical admin
 works.
-

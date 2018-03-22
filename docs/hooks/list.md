@@ -62,7 +62,7 @@ This is an overview list of all available hooks, listed by category.
 ## GUI Hooks
 
 * **[hook_civicrm_alterEntityRefParams](/hooks/hook_civicrm_alterEntityRefParams.md)** - called when an `entityRef` field is rendered in a form, which allows you to modify the parameters used to fetch options for this kind of field.
-* **[hook_civicrm_alterMenu](/hooks/hook_civicrm_alterMenu.md)** - called when building CiviCRM's list of HTTP routes and should be used when you want to register custom paths or URLS.
+* **[hook_civicrm_alterMenu](/hooks/hook_civicrm_alterMenu)** - called when building CiviCRM's list of HTTP routes and should be used when you want to register custom paths or URLS.
 * **[hook_civicrm_buildAmount](/hooks/hook_civicrm_buildAmount.md)** - called when building the amount structure for a Contribution or Event Page, allowing you to modify the set of radio buttons representing amounts for contribution levels and event registration fees.
 * **[hook_civicrm_caseSummary](/hooks/hook_civicrm_caseSummary.md)** - called when the manage case screen is displayed, and it allows the injection of label/value pairs which are rendered inside divs underneath the existing summary table.
 * **[hook_civicrm_contact_get_displayname](/hooks/hook_civicrm_contact_get_displayname.md)** - called to retrieve the display name of a contact, allowing you to return a custom display name.

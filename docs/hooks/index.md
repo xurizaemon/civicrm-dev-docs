@@ -99,7 +99,7 @@ You might find it helpful when implementing a hook to delegate certain
 operations to different functions instead of lumping it all in together in 
 the main hook.
 
-If you're using [Civix](/extensions/civix.md) to create your extension it will 
+If you're using [Civix](/extensions/civix) to create your extension it will 
 automatically generate wrapper code for your hook. 
 
 For more information you can checkout the README in this 

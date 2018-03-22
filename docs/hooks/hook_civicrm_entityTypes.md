@@ -6,7 +6,7 @@ This hook is called for declaring managed entities via API.
 
 ## Notes
 
-[See this tutorial](/extensions/civix.md#generate-entity) for a more complete description of creating a managed entity.
+[See this tutorial](/extensions/civix#generate-entity) for a more complete description of creating a managed entity.
 
 ## Definition
 

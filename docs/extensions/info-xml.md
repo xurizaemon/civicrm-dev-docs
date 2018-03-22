@@ -2,7 +2,7 @@
 
 Every CiviCRM [extension](/extensions/index.md) must have an `info.xml` file within it to provide information about the extension. This page is a reference for the schema of the `info.xml` file.
 
-Typically, you'll begin by running [civix generate:module](/extensions/civix.md#generate-module) and `civix` will create a basic `info.xml` file for you. Use this page to learn how to customize that file.
+Typically, you'll begin by running [civix generate:module](/extensions/civix#generate-module) and `civix` will create a basic `info.xml` file for you. Use this page to learn how to customize that file.
 
 ## Example
 
@@ -64,7 +64,7 @@ Here we describe all the elements acceptable within the XML file. They are prese
 ### `<civix>` {:#civix}
 
 * Containing element: [`<extension>`](#extension)
-* Description: Used to store settings which [civix](/extensions/civix.md) reads and writes 
+* Description: Used to store settings which [civix](/extensions/civix) reads and writes 
 * Contains: elements
 
 Elements acceptable within `<civix>`
@@ -234,7 +234,7 @@ Elements acceptable within `<maintainer>`
 ### `<namespace>` {:#namespace}
 
 * Containing element: [`<civix>`](#civix)
-* Description: The PHP namespace that [civix](/extensions/civix.md) uses when generating code 
+* Description: The PHP namespace that [civix](/extensions/civix) uses when generating code 
 * Contains: text
 * Example: `CRM/Volunteer`
 

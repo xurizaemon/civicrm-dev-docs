@@ -1,7 +1,7 @@
 # Extension Structure
 
 ## Extension Files
-The [civix](/extensions/civix.md) command line tool will generate the following structure
+The [civix](/extensions/civix) command line tool will generate the following structure
 for you:
 
 -   ***info.xml*** is a manifest that describes your extension – the name, license, version number, etc. You should edit most information in this file. The information contained in this file will also be used if published on civicrm.org.
